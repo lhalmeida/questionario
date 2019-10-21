@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Questionario</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body onload="javascript:aoCarregar();">
+    
+    <div class="titulo">
+            <h1>Questionário</h1>
+            
+    </div>
+
+    <div class="menu">
+    <a class="perguntaAnterior" href="javascript:perguntaAnterior()"> <strong>anterior</strong> </a>
+    <a class="proximaPergunta" href="javascript:proximaPergunta();"> <strong>seguinte</a>
+</div>
+    
+<div class="perguntas">
+    <input type="hidden" id="perguntaAtual" value="" /><br />
+    <div id="pergunta1">    
+        <h3>Qual o maior clube do mundo?</h3>
+    </div>
+
+    <div id="pergunta2">
+        <h3>Qual seu nome?</h3>
+    </div>
+    <div id="pergunta3">
+        <h3>Teste de pergunta 3</h3>
+    </div>
+    <div id="pergunta4">
+            <h3>Teste de pergunta 4</h3>
+    </div>
+    <div id="pergunta5">
+            <h3>Teste de pergunta 5</h3>
+    </div>
+</div>
+
+
+<script src="js/perguntas.js"></script>
+</body>
+
+</html>
